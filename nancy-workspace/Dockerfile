@@ -13,12 +13,15 @@ WORKDIR $workdir
 RUN apt update
 
 # INSTALL UTILS Tools
+RUN apt-get install -y software-properties-common
 RUN apt install -y wget
 RUN apt install -y unzip
 RUN apt install -y curl
 RUN apt install -y default-jre
 
 # INSTALL GIT
+RUN add-apt-repository ppa:git-core/ppa
+RUN apt update
 RUN apt install -y git
 RUN git config --global user.name $user
 RUN git config --global user.email $email
