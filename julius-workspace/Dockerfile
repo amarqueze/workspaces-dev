@@ -12,8 +12,8 @@ ENV AUTHOR="Alan M.E <alanmarquez@outlook.com>"
 ENV STACK="Git, Nodejs 14.x LTS, OpenJDK-11, Gradle 7, Maven"
 ENV WORKSPACE=$workdir
 ENV WORKSPACE_VERSION="1.0.2"
-ENV GRADLE_VERSION=version_gradle
-ENV NODE_VERSION=version_nodejs
+ENV GRADLE_VERSION=$version_gradle
+ENV NODE_VERSION=$version_nodejs
 
 WORKDIR $workdir
 

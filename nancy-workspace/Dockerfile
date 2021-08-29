@@ -11,7 +11,7 @@ ENV AUTHOR="Alan M.E <alanmarquez@outlook.com>"
 ENV STACK="Git, Nodejs 14.x LTS(angular-cli, ngx-rocket, nest-cli, Typescript)"
 ENV WORKSPACE=$workdir
 ENV WORKSPACE_VERSION="1.0.1"
-ENV NODE_VERSION=version_nodejs
+ENV NODE_VERSION=$version_nodejs
 
 WORKDIR $workdir
 
