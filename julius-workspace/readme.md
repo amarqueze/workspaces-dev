@@ -1,5 +1,5 @@
 <h1 align="center">
-  🎯 Stack: Git, Nodejs 14.x LTS, OpenJDK-11, Gradle 6, Maven
+  🎯 Stack: Git, Nodejs 14.x LTS, OpenJDK-11, Gradle 7, Maven
 </h1>
 
 ## 🚀 Environment Setup
