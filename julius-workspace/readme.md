@@ -12,4 +12,4 @@
 
 ### 🛠️ Build Image
 
-1. `docker build -t "julius-workspace" --build-arg user=amarquez --build-arg email=alanmarquez@outlook.com .`
+1. `docker build -t "julius-workspace" --build-arg user=amarquez --build-arg email=alanmarquez@outlook.com --build-arg version_nodejs=14 --build-arg version_gradle=7.2 .`
