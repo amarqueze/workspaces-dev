@@ -3,6 +3,7 @@ FROM ubuntu:18.04
 ARG workdir="/home"
 ARG user="Alan M.E"
 ARG email="alanmarquez@outlook.com"
+ARG defaultBranch="master"
 
 # Version Tools
 ARG version_nodejs="14"
@@ -11,8 +12,6 @@ ENV AUTHOR="Alan M.E <alanmarquez@outlook.com>"
 ENV STACK="Git, Nodejs 14.x LTS, Erlang and Elixir"
 ENV WORKSPACE=$workdir
 ENV WORKSPACE_VERSION="1.0.2"
-ENV LANG C.UTF-8
-ENV LC_ALL C.UTF-8
 ENV NODE_VERSION=$version_nodejs
 
 WORKDIR $workdir
@@ -31,7 +30,7 @@ RUN apt update
 RUN apt install -y git
 RUN git config --global user.name $user
 RUN git config --global user.email $email
-RUN git config --global init.defaultBranch trunk
+RUN git config --global init.defaultBranch $defaultBranch
 
 # INSTALL NODEJS
 RUN curl -fsSL https://deb.nodesource.com/setup_${NODE_VERSION}.x | bash -

@@ -3,6 +3,7 @@ FROM ubuntu:18.04
 ARG workdir="/home"
 ARG user="Alan M.E"
 ARG email="alanmarquez@outlook.com"
+ARG defaultBranch="master"
 
 # Version Tools
 ARG version_nodejs="14"
@@ -31,7 +32,7 @@ RUN apt update
 RUN apt install -y git
 RUN git config --global user.name $user
 RUN git config --global user.email $email
-RUN git config --global init.defaultBranch trunk
+RUN git config --global init.defaultBranch $defaultBranch
 
 # INSTALL NODEJS
 RUN curl -fsSL https://deb.nodesource.com/setup_${NODE_VERSION}.x | bash -
