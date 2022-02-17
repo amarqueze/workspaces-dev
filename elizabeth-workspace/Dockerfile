@@ -6,7 +6,7 @@ ARG email="alanmarquez@outlook.com"
 ARG defaultBranch="master"
 
 # Version Tools
-ARG version_nodejs="14"
+ARG version_nodejs="16"
 
 ENV AUTHOR="Alan M.E <alanmarquez@outlook.com>"
 ENV STACK="Git, Nodejs 14.x LTS, Erlang and Elixir"

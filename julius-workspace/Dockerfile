@@ -6,7 +6,7 @@ ARG email="alanmarquez@outlook.com"
 ARG defaultBranch="master"
 
 # Version Tools
-ARG version_nodejs="14"
+ARG version_nodejs="16"
 ARG version_gradle="7.2"
 
 ENV AUTHOR="Alan M.E <alanmarquez@outlook.com>"
