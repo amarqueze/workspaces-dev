@@ -1,5 +1,5 @@
 <h1 align="center">
-  🎯 Stack: Git, Nodejs 14.x LTS, Erlang and Elixir
+  🎯 Stack: Git, Nodejs 16.x LTS, Erlang and Elixir
 </h1>
 
 ## 🚀 Environment Setup

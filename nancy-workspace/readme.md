@@ -1,5 +1,5 @@
 <h1 align="center">
-  🎯 Stack: Git, Nodejs 14.x LTS(angular-cli, ngx-rocket, nextJS, create-react-app, Loopback4 and Typescript)
+  🎯 Stack: Git, Nodejs 16.x LTS(angular-cli, ngx-rocket, nextJS, create-react-app, Loopback4 and Typescript)
 </h1>
 
 ## 🚀 Environment Setup

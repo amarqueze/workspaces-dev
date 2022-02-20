@@ -9,7 +9,7 @@ ARG defaultBranch="master"
 ARG version_nodejs="16"
 
 ENV AUTHOR="Alan M.E <alanmarquez@outlook.com>"
-ENV STACK="Git, Nodejs 14.x LTS, Erlang and Elixir"
+ENV STACK="Git, Nodejs 16.x LTS, Erlang and Elixir"
 ENV WORKSPACE=$workdir
 ENV WORKSPACE_VERSION="1.0.2"
 ENV NODE_VERSION=$version_nodejs

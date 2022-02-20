@@ -10,7 +10,7 @@ ARG version_nodejs="16"
 ARG version_gradle="7.2"
 
 ENV AUTHOR="Alan M.E <alanmarquez@outlook.com>"
-ENV STACK="Git, Nodejs 14.x LTS, OpenJDK-11, Gradle 7, Maven"
+ENV STACK="Git, Nodejs 16.x LTS, OpenJDK-11, Gradle 7, Maven"
 ENV WORKSPACE=$workdir
 ENV WORKSPACE_VERSION="1.0.2"
 ENV GRADLE_VERSION=$version_gradle
