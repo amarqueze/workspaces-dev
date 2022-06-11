@@ -1,5 +1,5 @@
 <h1 align="center">
-  🎯 Stack: Git, Nodejs 16.x LTS, OpenJDK-11, Gradle 7, Maven
+  🎯 Stack: Git, Nodejs 16.x LTS, OpenJDK-11,14,15,17, Gradle 7, Maven
 </h1>
 
 ## 🚀 Environment Setup
@@ -12,4 +12,4 @@
 
 ### 🛠️ Build Image
 
-1. `docker build -t "julius-workspace" --build-arg user=amarquez --build-arg email=alanmarquez@outlook.com --build-arg version_nodejs=14 --build-arg version_gradle=7.2 .`
+1. `docker build -t "julius-workspace" --build-arg user=amarquez --build-arg email=alanmarquez@outlook.com --build-arg version_nodejs=14 --build-arg version_gradle=7.2 --build-arg version_java=jdk11 .`
